@@ -20,7 +20,7 @@
 </trigger>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType, any } from '../../../utils'
 import Trigger from '../trigger'
 import placements from './placements'

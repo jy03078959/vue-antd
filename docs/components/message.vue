@@ -60,7 +60,7 @@ message.config({
 | top        | 消息距离顶部的位置 | Number                     | 24px         |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import message from '../../components/message'
 import vButton from '../../components/button'
 

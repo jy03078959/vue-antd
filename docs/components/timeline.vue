@@ -78,7 +78,7 @@
 |  color   | 指定圆圈颜色。 | string | blue, red, green | blue     |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vTimeline, { vTimelineItem } from '../../components/timeline'
 
 export default {

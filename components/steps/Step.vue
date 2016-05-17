@@ -14,7 +14,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../utils'
 import cx from 'classnames'
 

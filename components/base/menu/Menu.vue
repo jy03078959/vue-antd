@@ -4,7 +4,7 @@
 </ul>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOf, cx, scrollIntoView } from '../../../utils'
 import { getKeyFromChildrenIndex } from './util'
 

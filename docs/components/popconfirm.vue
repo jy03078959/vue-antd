@@ -80,7 +80,7 @@
 | onCancel  | 卡片内容                                 | function      | 无     |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vPopconfirm from '../../components/popconfirm'
 import vButton from '../../components/button'
 import message from '../../components/message'

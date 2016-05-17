@@ -189,7 +189,7 @@ onClick | `click` 事件的 handler | Function | `function() {}`
 </demo>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vButton, { vButtonGroup } from '../../components/button'
 import vIcon from '../../components/iconfont'
 

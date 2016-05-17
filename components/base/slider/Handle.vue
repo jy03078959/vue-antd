@@ -21,7 +21,7 @@
   @mouseleave="_hideTooltip"></div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { cx } from '../../../utils'
 import Tooltip from '../tooltip'
 

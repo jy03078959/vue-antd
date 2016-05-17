@@ -16,8 +16,7 @@ describe('Base.Menu', () => {
     expect(vm.$el.querySelector(''))
   })
 
-  it('Should call on select when item is selected', (done) => {
+  it('Should call on select when item is selected', done => {
 
   })
-
 })

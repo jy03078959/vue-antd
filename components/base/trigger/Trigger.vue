@@ -19,7 +19,7 @@
 <slot name="trigger"></slot>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, cx, any, oneOfType, contains, slotMixin } from '../../../utils'
 import Popup from './Popup.vue'
 import { getAlignFromPlacement, getPopupClassNameFromAlign } from './utils'

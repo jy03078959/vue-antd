@@ -47,7 +47,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, cx, oneOfType, addEventListener } from '../../../utils'
 import Track from './Track.vue'
 import Handle from './Handle.vue'

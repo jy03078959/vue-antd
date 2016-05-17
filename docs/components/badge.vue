@@ -51,7 +51,7 @@
 | dot            | 不展示数字，只有一个小红点       | boolean    |         | false  |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vBadge from '../../components/badge'
 import vIcon from '../../components/iconfont'
 

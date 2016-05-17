@@ -83,7 +83,7 @@
 | width | 必填，进度条画布宽度，单位px。这里没有提供height属性设置，Line型高度就是strokeWidth，Circle型高度等于width | number | null |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { vProgressLine, vProgressCircle } from '../../components/progress'
 import vButton, { vButtonGroup } from '../../components/button'
 import vIcon from '../../components/iconfont'

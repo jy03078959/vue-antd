@@ -69,7 +69,7 @@
 | defaultValue   | 默认选中的值                     | String            | 无     | 无     |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vRadio, { vRadioGroup } from '../../components/radio'
 import vButton from '../../components/button'
 

@@ -243,7 +243,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vQueueAnim from '../../components/queue-anim'
 import vButton from '../../components/button'
 import vCheckbox from '../../components/checkbox'

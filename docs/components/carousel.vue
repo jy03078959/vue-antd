@@ -52,7 +52,7 @@
 | onChange         | 切换面板的回调                               | Function | 无
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vCarousel from '../../components/carousel'
 import message from '../../components/message'
 

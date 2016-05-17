@@ -2,7 +2,7 @@
 <Calendar></Calendar>
 </tempalte>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../utils'
 import Calendar from './base/calendar'
 import GregorianCalendar from 'gregorian-calendar'

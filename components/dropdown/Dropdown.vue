@@ -10,7 +10,7 @@
 </dropdown>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOf, camelcaseToHyphen } from '../../utils'
 import Dropdown from '../base/dropdown'
 

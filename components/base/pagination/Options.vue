@@ -20,7 +20,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../../utils'
 import KEYCODE from './KeyCode'
 import Select, { Option } from './select'

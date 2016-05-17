@@ -1,3 +1,3 @@
 <template></template>
 
-<script></script>
+<script type="text/ecmascript-6"> </script>

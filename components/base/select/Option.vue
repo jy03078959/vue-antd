@@ -2,7 +2,7 @@
 <span><slot></slot></span>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 
 export default {
 

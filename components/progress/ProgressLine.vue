@@ -19,7 +19,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOf } from '../../utils'
 import vIcon from '../iconfont'
 import cx from 'classnames'

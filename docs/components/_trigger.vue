@@ -76,7 +76,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Trigger from '../../components/base/trigger'
 import vCheckbox from '../../components/checkbox'
 

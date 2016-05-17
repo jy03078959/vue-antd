@@ -19,7 +19,7 @@ function getBody (xhr) {
     return text
   }
 }
-
+var XMLHttpRequest = window.XMLHttpRequest
 export default function upload (option) {
   if (typeof XMLHttpRequest === 'undefined') {
     return
@@ -35,7 +35,7 @@ export default function upload (option) {
     }
   }
 
-  const formData = new FormData()
+  const formData = new window.FormData()
   formData.append(option.filename, option.file)
   if (option.data) {
     Object.keys(option.data).map(key => {

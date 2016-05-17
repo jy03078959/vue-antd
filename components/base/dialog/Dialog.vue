@@ -48,7 +48,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, KeyCode } from '../../../utils'
 import cx from 'classnames'
 import Animate from '../animate'

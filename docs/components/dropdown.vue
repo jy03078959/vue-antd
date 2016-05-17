@@ -44,7 +44,7 @@
 > 注意： Menu.Item 必须设置唯一的 key 属性。
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vDropdown from '../../components/dropdown'
 import vButton from '../../components/button'
 import vIcon from '../../components/iconfont'

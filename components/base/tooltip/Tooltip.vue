@@ -27,7 +27,7 @@
 </trigger>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType, any } from '../../../utils'
 import { placements } from './placements'
 import Trigger from '../trigger'

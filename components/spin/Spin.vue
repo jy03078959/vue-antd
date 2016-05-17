@@ -11,7 +11,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOf } from '../../utils'
 import cx from 'classnames'
 

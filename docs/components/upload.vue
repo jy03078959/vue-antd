@@ -103,7 +103,7 @@
 - [https://github.com/react-component/upload#ie89-note](https://github.com/react-component/upload#ie89-note)
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vUpload from '../../components/upload'
 import vIcon from '../../components/iconfont'
 import vButton from '../../components/button'

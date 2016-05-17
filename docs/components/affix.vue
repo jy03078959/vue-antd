@@ -35,7 +35,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vAffix from '../../components/affix'
 import vButton from '../../components/button'
 

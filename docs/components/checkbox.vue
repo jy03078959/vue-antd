@@ -41,7 +41,7 @@
 |  on-change | 变化时回调函数 | Function(e:Event) |  |  | |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vCheckbox from '../../components/checkbox'
 import vButton from '../../components/button'
 

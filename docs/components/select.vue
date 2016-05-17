@@ -59,7 +59,7 @@
 | key   |  |  String | - |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vSelect, { vOption } from '../../components/select'
 
 export default {

@@ -17,7 +17,7 @@
 </menu>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOf } from '../../utils'
 import Menu from '../base/menu'
 

@@ -75,7 +75,7 @@ Table 有两种模式，本地数据和远程数据模式。
 | getParams     | 和后台接口接收的参数进行适配，返回值会作为请求的参数发送 | Function |  | 无 |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vTable from '../../components/table'
 
 export default {

@@ -12,7 +12,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Animate from '../animate'
 import cx from 'classnames'
 import { defaultProps, oneOfType } from '../../../utils'

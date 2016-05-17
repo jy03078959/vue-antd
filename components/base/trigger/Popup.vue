@@ -2,7 +2,7 @@
 <span></span>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, cx, any, contains } from '../../../utils'
 import Align from '../align'
 import Animation from '../animate'

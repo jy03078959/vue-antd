@@ -11,7 +11,7 @@
   :simple="simple"></Pagination>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Pagination from './base/pagination'
 import { defaultProps } from '../utils'
 

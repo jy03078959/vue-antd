@@ -9,7 +9,7 @@
 </collapse>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType } from '../../utils'
 import Collapse from '../base/collapse'
 

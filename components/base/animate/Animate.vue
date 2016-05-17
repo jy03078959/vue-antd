@@ -2,7 +2,7 @@
 <slot></slot>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, getTrustSlotNode } from '../../../utils'
 import cssAnimate, { isCssAnimationSupported } from 'css-animation'
 

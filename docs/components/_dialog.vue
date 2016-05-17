@@ -33,7 +33,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Dialog from '../../components/base/dialog'
 import vButton from '../../components/button'
 

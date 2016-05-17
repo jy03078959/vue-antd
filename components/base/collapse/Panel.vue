@@ -22,7 +22,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType } from '../../../utils'
 import cx from 'classnames'
 import Animate from '../animate'

@@ -16,7 +16,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 // matchMedia polyfill for
 // https://github.com/WickyNilliams/enquire.js/issues/82
 if (typeof window !== 'undefined') {

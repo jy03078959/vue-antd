@@ -22,7 +22,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Align from '../../components/base/align'
 import vCheckbox from '../../components/checkbox'
 

@@ -48,7 +48,7 @@
 | size        | enum      | default       | spin组件中点的大小，可选值为small default large
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vSpin from '../../components/spin'
 import vButton from '../../components/button'
 

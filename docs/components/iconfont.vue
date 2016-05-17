@@ -63,7 +63,7 @@
 </ul>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vIcon from '../../components/iconfont'
 window.Clipboard = require('clipboard')
 

@@ -47,7 +47,7 @@
 | size    | 输入框大小  | String      |      无      |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vInputNumber from '../../components/input-number'
 import vButton from '../../components/button'
 

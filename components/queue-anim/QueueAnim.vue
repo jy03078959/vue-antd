@@ -15,7 +15,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType, oneOf, guid } from '../../utils'
 import velocity from 'velocity-animate'
 import ANIM_TYPES from './animTypes'

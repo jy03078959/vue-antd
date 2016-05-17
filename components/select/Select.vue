@@ -24,7 +24,7 @@
 </v-select>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, oneOfType, camelcaseToHyphen } from '../../utils'
 import vSelect from '../base/select'
 

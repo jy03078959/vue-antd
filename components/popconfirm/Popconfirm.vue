@@ -23,7 +23,7 @@
 </tooltip>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../utils'
 import Tooltip from '../base/tooltip'
 import vIcon from '../iconfont'

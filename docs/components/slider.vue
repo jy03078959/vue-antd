@@ -39,7 +39,7 @@
 | disabled   | Boolean 			| false         | 值为 `true` 时，滑块为 disable 禁用状态
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vSlider from '../../components/slider'
 
 export default {

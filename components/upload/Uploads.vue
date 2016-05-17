@@ -18,7 +18,7 @@
 <upload-list :items="fileList" :on-remove="_handleManualRemove" ></upload-list>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../utils'
 import cx from 'classnames'
 import AjaxUpload from './AjaxUploader.vue'

@@ -13,7 +13,7 @@
 </inner-slider>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import props from './props'
 import InnerSlider from './InnerSlider.vue'
 import json2mq from 'json2mq'

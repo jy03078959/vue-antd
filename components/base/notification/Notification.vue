@@ -14,7 +14,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Vue from 'vue'
 import cx from 'classnames'
 import Animate from '../animate'

@@ -2,7 +2,7 @@
 <slot></slot>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, any, getTrustSlotNode, throttle } from '../../../utils'
 import align from 'dom-align'
 

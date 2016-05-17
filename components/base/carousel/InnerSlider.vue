@@ -48,7 +48,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import props from './props'
 import { cx, addEndEventListener, removeEndEventListener } from '../../../utils'
 import vTrack from './Track.vue'

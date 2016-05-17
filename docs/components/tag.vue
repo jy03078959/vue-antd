@@ -37,7 +37,7 @@
 | color          | 标签的色彩                     | string     | blue green yellow red | 无 |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vTag from '../../components/tag'
 
 export default {

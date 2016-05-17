@@ -49,7 +49,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vAlert from '../../components/alert'
 
 export default {

@@ -106,7 +106,7 @@
 |  icon    | 可选参数，步骤的Icon。如果不指定，则使用默认的样式。 | string/jsx | 无  | 空 |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vSteps, { vStep } from '../../components/steps'
 import vButton from '../../components/button'
 

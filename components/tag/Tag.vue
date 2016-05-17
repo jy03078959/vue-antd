@@ -5,7 +5,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import cx from 'classnames'
 import { defaultProps, oneOf } from '../../utils'
 import vIcon from '../iconfont'

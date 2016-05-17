@@ -163,7 +163,7 @@
 | content   | 卡片内容                                 | React.Element | 无     |
 | overlayClassName | 浮层的类名                        | string        | 无     |
 </template>
-<script>
+<script type="text/ecmascript-6">
 import vPopover from '../../components/popover'
 import vButton from '../../components/button'
 

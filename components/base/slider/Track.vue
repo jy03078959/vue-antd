@@ -2,7 +2,7 @@
 <div :class="className" :style="wrapStyle"></div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { cx } from '../../../utils'
 
 export default {

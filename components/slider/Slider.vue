@@ -15,7 +15,7 @@
   :tip-formatter="tipFormatter"></slider>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Slider from '../base/slider'
 import { defaultProps, oneOfType } from '../../utils'
 

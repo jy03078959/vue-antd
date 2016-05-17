@@ -67,7 +67,7 @@
 | children   | (MenuItem or SubMenu)[] |  子菜单的菜单项 | | |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vMenu, { vSubMenu, vMenuItem } from '../../components/menu'
 import vIcon from '../../components/iconfont'
 

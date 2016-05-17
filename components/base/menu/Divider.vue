@@ -2,7 +2,7 @@
 <li :class="className + ' ' + rootPrefixCls + '-item-divider'"></li>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../../utils'
 
 export default {

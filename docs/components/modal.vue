@@ -82,7 +82,7 @@
 | iconClassName | 图标 Icon 类型 | String | question-circle |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vButton from '../../components/button'
 import vModal from '../../components/modal'
 import message from '../../components/message'

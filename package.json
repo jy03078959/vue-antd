@@ -4,18 +4,16 @@
   "description": "Ant Design components built with Vue.js ",
   "main": "src/index.js",
   "scripts": {
-    "dev": "npm-run-all --parallel docs:server docs:watch",
-    "docs:server": "node docs/server.js",
-    "docs:deploy": "rm -rf .temp && webpack --config build/webpack/development.js --progress --colors --display-chunks && gh-pages -d .temp",
-    "docs:watch": "webpack --config build/webpack/development.js --progress --colors --display-chunks --display-error-details --watch",
-    "build": "webpack --config build/webpack/build.dev.js && webpack --config build/webpack/build.prod.js",
-    "lint": "eslint src/** test/e2e/** test/unit/specs/** build/**.js",
-    "e2e": "casperjs test --concise ./test/e2e",
-    "test": "karma start build/karma.conf.js"
+    "dev": "node build/dev-server.js",
+    "build": "rimraf dist && mkdirp dist && ncp static dist/static && cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.prod.conf.js",
+    "build_beta": "rimraf dist && mkdirp dist && ncp static dist/static && cross-env NODE_ENV=production_beta webpack --progress --hide-modules --config build/webpack.prod.conf.js",
+    "unit": "karma start test/unit/karma.conf.js --single-run",
+    "e2e": "node test/e2e/runner.js",
+    "test": "npm run unit && npm run e2e"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/okoala/vue-antd.git"
+    "url": "https://github.com/jy03078959/vue-antd.git"
   },
   "keywords": [
     "vue",
@@ -23,7 +21,7 @@
     "vue-component",
     "antd"
   ],
-  "homepage": "https://github.com/okoala/vue-antd",
+  "homepage": "https://github.com/jy03078959/vue-antd",
   "dependencies": {
     "classnames": "^2.2.3",
     "css-animation": "^1.1.1",
@@ -99,6 +97,6 @@
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.14"
   },
-  "author": "KoalaHuang",
+  "author": "stone",
   "license": "MIT"
 }

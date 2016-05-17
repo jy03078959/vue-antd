@@ -18,7 +18,7 @@
 </tooltip>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, any } from '../../utils'
 import Tooltip from '../base/tooltip'
 

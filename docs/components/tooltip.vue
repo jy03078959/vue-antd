@@ -74,7 +74,7 @@
 | placement | 气泡框位置，可选 `top/left/right/bottom` | string     | top    |
 | title     | 提示文字                                 | string/jsx | 无     |
 </template>
-<script>
+<script type="text/ecmascript-6">
 import vTooltip from '../../components/tooltip'
 import vButton from '../../components/button'
 

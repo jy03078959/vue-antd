@@ -50,7 +50,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import Pager from './Pager.vue'
 import Options from './Options.vue'
 import KEYCODE from './KeyCode'

@@ -15,7 +15,7 @@
 </span>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps } from '../../utils'
 import request from './request'
 import uid from './uid'

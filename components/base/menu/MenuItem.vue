@@ -13,7 +13,7 @@
 </li>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, cx, KeyCode } from '../../../utils'
 
 export default {

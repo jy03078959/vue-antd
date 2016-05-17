@@ -15,7 +15,7 @@
 </li>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { defaultProps, KeyCode, guid,
   cx, contains, addEventListener } from '../../../utils'
 

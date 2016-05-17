@@ -77,7 +77,7 @@
 | header | 面板头内容 | React.Element or String | 无     |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vCollapse, { vPanel } from '../../components/collapse'
 import message from '../../components/message'
 

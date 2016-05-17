@@ -52,7 +52,7 @@
 
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vSwitch from '../../components/switch'
 import vButton from '../../components/button'
 import { defaultProps } from '../../utils'

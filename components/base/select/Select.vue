@@ -4,7 +4,7 @@
 </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import { KeyCode, cx, defaultProps, oneOfType, any } from '../../../utils'
 import Animate from '../animate'
 import {

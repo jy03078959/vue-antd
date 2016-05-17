@@ -48,7 +48,7 @@
 | href      | 链接，如不传则不可点击                   | string     |         | -      |
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import vBreadcrumb, { BreadcrumbItem as vBreadcrumbItem } from '../../components/breadcrumb'
 import vIcon from '../../components/iconfont'
 
