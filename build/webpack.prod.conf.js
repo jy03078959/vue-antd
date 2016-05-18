@@ -4,6 +4,7 @@ var baseConfig = require('./webpack.base.conf')
 var cssLoaders = require('./css-loaders')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
+var path = require('path')
 
 // whether to generate source map for production files.
 // disabling this can speed up the build.
@@ -12,11 +13,9 @@ var SOURCE_MAP = true
 module.exports = merge(baseConfig, {
   devtool: SOURCE_MAP ? '#source-map' : false,
   output: {
-    // naming output files with hashes for better caching.
-    // dist/index.html will be auto-generated with correct URLs.
-    filename: '[name].[chunkhash].js',
-    chunkFilename: '[id].[chunkhash].js',
-    publicPath: 'static/'
+    path: path.resolve(__dirname, '../dist/static'),
+    publicPath: '',
+    filename: '[name].js'
   },
   vue: {
     loaders: cssLoaders({
@@ -43,8 +42,9 @@ module.exports = merge(baseConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: '../index.html',
-      template: 'index.html',
+      template: './docs/index.html',
+      favicon: './docs/favicon.ico',
+      filename: 'index.html',
       inject: true,
       minify: {
         removeComments: true,

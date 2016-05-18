@@ -1,6 +1,6 @@
 <template>
 <li
-  role: 'menuitem'
+  role='menuitem'
   :style="style"
   :title="title"
   :class="wrapClasses"

@@ -1,14 +1,14 @@
 var path = require('path')
 var projectRoot = path.resolve(__dirname, '../')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
-
+var autoprefixer = require('autoprefixer')
 module.exports = {
   entry: {
     app: './docs/index.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist/static'),
-    publicPath: '/static/',
+    publicPath: '',
     filename: '[name].js'
   },
   resolve: {
@@ -56,7 +56,7 @@ module.exports = {
         loader: 'url',
         query: {
           limit: 10000,
-          name: '[name].[ext]?[hash:7]'
+          name: '[name].[ext]?[hash]'
         }
       },
       {
@@ -73,6 +73,7 @@ module.exports = {
   eslint: {
     formatter: require('eslint-friendly-formatter')
   },
+  postcss: [autoprefixer],
   vue: {
     loaders: {
       // apply babel transform to all javascript

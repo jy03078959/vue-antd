@@ -3,12 +3,13 @@
 *.yml
 build
 coverage
-dist/vue-antd.js.map
-dist/vue-antd.min.js.gz
+dist
+node_modules
 examples
 explorations
 perf
 test
+static
 bower.json
 component.json
 gruntfile.js

@@ -1,173 +1,254 @@
-
 export function configRouter (router) {
   router.map({
     'components': {
       component: require('../views/components.vue'),
       subRoutes: {
         'introduce': {
-          component: require('../views/docs/introduce.vue')
+          component: function (res) {
+            require([ '../views/docs/introduce.vue' ], res)
+          }
         },
 
         'getting-started': {
-          component: require('../views/docs/getting-started.vue')
+          component: function (res) {
+            require([ '../views/docs/getting-started.vue' ], res)
+          }
         },
 
         'download': {
-          component: require('../views/docs/download.vue')
+          component: function (res) {
+            require([ '../views/docs/download.vue' ], res)
+          }
         },
 
         'affix': {
-          component: require('../components/affix.vue')
+          component: function (res) {
+            require([ '../components/affix.vue' ], res)
+          }
         },
 
         'alert': {
-          component: require('../components/alert.vue')
+          component: function (res) {
+            require([ '../components/alert.vue' ], res)
+          }
         },
 
         'button': {
-          component: require('../components/button.vue')
+          component: function (res) {
+            require([ '../components/button.vue' ], res)
+          }
         },
 
         'badge': {
-          component: require('../components/badge.vue')
+          component: function (res) {
+            require([ '../components/badge.vue' ], res)
+          }
         },
 
         'breadcrumb': {
-          component: require('../components/breadcrumb.vue')
+          component: function (res) {
+            require([ '../components/breadcrumb.vue' ], res)
+          }
         },
 
         'checkbox': {
-          component: require('../components/checkbox.vue')
+          component: function (res) {
+            require([ '../components/checkbox.vue' ], res)
+          }
         },
 
         'carousel': {
-          component: require('../components/carousel.vue')
+          component: function (res) {
+            require([ '../components/carousel.vue' ], res)
+          }
         },
 
         'collapse': {
-          component: require('../components/collapse.vue')
+          component: function (res) {
+            require([ '../components/collapse.vue' ], res)
+          }
         },
 
         'dropdown': {
-          component: require('../components/dropdown.vue')
+          component: function (res) {
+            require([ '../components/dropdown.vue' ], res)
+          }
         },
 
         'iconfont': {
-          component: require('../components/iconfont.vue')
+          component: function (res) {
+            require([ '../components/iconfont.vue' ], res)
+          }
         },
 
         'input-number': {
-          component: require('../components/input-number.vue')
+          component: function (res) {
+            require([ '../components/input-number.vue' ], res)
+          }
         },
 
         'layout': {
-          component: require('../components/layout.vue')
+          component: function (res) {
+            require([ '../components/layout.vue' ], res)
+          }
         },
 
         'message': {
-          component: require('../components/message.vue')
+          component: function (res) {
+            require([ '../components/message.vue' ], res)
+          }
         },
 
         'menu': {
-          component: require('../components/menu.vue')
+          component: function (res) {
+            require([ '../components/menu.vue' ], res)
+          }
         },
 
         'notification': {
-          component: require('../components/notification.vue')
+          component: function (res) {
+            require([ '../components/notification.vue' ], res)
+          }
         },
 
         'progress': {
-          component: require('../components/progress.vue')
+          component: function (res) {
+            require([ '../components/progress.vue' ], res)
+          }
         },
 
         'queue-anim': {
-          component: require('../components/queue-anim.vue')
+          component: function (res) {
+            require([ '../components/queue-anim.vue' ], res)
+          }
         },
 
         'popconfirm': {
-          component: require('../components/popconfirm.vue')
+          component: function (res) {
+            require([ '../components/popconfirm.vue' ], res)
+          }
         },
 
         'popover': {
-          component: require('../components/popover.vue')
+          component: function (res) {
+            require([ '../components/popover.vue' ], res)
+          }
         },
 
         'upload': {
-          component: require('../components/upload.vue')
+          component: function (res) {
+            require([ '../components/upload.vue' ], res)
+          }
         },
 
         'modal': {
-          component: require('../components/modal.vue')
+          component: function (res) {
+            require([ '../components/modal.vue' ], res)
+          }
         },
 
         'radio': {
-          component: require('../components/radio.vue')
+          component: function (res) {
+            require([ '../components/radio.vue' ], res)
+          }
         },
 
         'select': {
-          component: require('../components/select.vue')
+          component: function (res) {
+            require([ '../components/select.vue' ], res)
+          }
         },
 
         'slider': {
-          component: require('../components/slider.vue')
+          component: function (res) {
+            require([ '../components/slider.vue' ], res)
+          }
         },
 
         'switch': {
-          component: require('../components/switch.vue')
+          component: function (res) {
+            require([ '../components/switch.vue' ], res)
+          }
         },
 
         'steps': {
-          component: require('../components/steps.vue')
+          component: function (res) {
+            require([ '../components/steps.vue' ], res)
+          }
         },
 
         'spin': {
-          component: require('../components/spin.vue')
+          component: function (res) {
+            require([ '../components/spin.vue' ], res)
+          }
         },
 
         'table': {
-          component: require('../components/table.vue')
+          component: function (res) {
+            require([ '../components/table.vue' ], res)
+          }
         },
 
         'tag': {
-          component: require('../components/tag.vue')
+          component: function (res) {
+            require([ '../components/tag.vue' ], res)
+          }
         },
 
         'tooltip': {
-          component: require('../components/tooltip.vue')
+          component: function (res) {
+            require([ '../components/tooltip.vue' ], res)
+          }
         },
 
         'timeline': {
-          component: require('../components/timeline.vue')
+          component: function (res) {
+            require([ '../components/timeline.vue' ], res)
+          }
         },
 
         '_trigger': {
-          component: require('../components/_trigger.vue')
+          component: function (res) {
+            require([ '../components/_trigger.vue' ], res)
+          }
         },
 
         '_align': {
-          component: require('../components/_align.vue')
+          component: function (res) {
+            require([ '../components/_align.vue' ], res)
+          }
         },
 
         '_animate': {
-          component: require('../components/_animate.vue')
+          component: function (res) {
+            require([ '../components/_animate.vue' ], res)
+          }
         },
 
         '_notification': {
-          component: require('../components/_notification.vue')
+          component: function (res) {
+            require([ '../components/_notification.vue' ], res)
+          }
         },
 
         '_tooltip': {
-          component: require('../components/_tooltip.vue')
+          component: function (res) {
+            require([ '../components/_tooltip.vue' ], res)
+          }
         },
 
         '_dialog': {
-          component: require('../components/_dialog.vue')
+          component: function (res) {
+            require([ '../components/_dialog.vue' ], res)
+          }
         }
       }
     },
 
     '*': {
-      component: require('../views/not-found.vue')
+      component: function (res) {
+        require([ '../views/not-found.vue' ], res)
+      }
     }
   })
 
